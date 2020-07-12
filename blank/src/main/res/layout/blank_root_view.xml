@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <com.xc.blank.FlowLayout
+    android:id="@+id/flow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_54"
+    android:layout_marginRight="@dimen/dp_54" />
+
+  <com.xc.blank.BlankView
+    android:id="@+id/blankView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_23"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="@dimen/dp_16"/>
+
+</LinearLayout>

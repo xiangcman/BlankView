@@ -1,0 +1,3 @@
+include ':blank'
+include ':app'
+rootProject.name = "BlankView"

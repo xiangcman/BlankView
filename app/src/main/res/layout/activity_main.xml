@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/goToDragBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="toBlank"
+    android:text="填空题" />
+
+  <Button
+    android:id="@+id/goToDrag1Btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="toBlank"
+    android:text="填空题(选项多余空格)" />
+
+  <Button
+    android:id="@+id/goToDrag2Btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="toBlank"
+    android:text="填空题(解析类型)" />
+
+  <Button
+    android:id="@+id/goToDrag3Btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="toBlank"
+    android:text="填空题(带序号类型)" />
+
+</LinearLayout>
